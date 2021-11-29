@@ -4,8 +4,6 @@
             [creditcard.logic.gastos-categoria :as c.l.categoria]
             [creditcard.logic.fatura :as c.l.fatura]))
 
-(println "Nubank - Sistema básico de cartão de crédito")
-
 (let [resumo    (c.l.resumo/resumo (c.db/compras))
       categoria (c.l.categoria/gasto-por-categoria (c.db/compras))
       fatura    (c.l.fatura/fatura-do-mes (c.db/compras))]
@@ -17,4 +15,4 @@
   (println "Por categoria:" (get (first categoria) :valor-por-categoria "Nenhum gasto por categoria encontrado!"))
   (println "Sua fatura do mês: R$" (c.l.resumo/formatacao (first fatura))))
 
-; Listagem de compras realizadas: (c.db/compras))
+; Listagem de compras realizadas: (c.db/compras)
