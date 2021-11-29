@@ -17,3 +17,5 @@
   (println "Até hoje, seu gasto no cartão de crédito foi de R$" (get (first resumo) :valor-total 0) "...")
   (println "Por categoria:" (get (first categoria) :valor-por-categoria "Nenhum gasto por categoria encontrado!"))
   (println "Sua fatura do mês: R$" (c.l.resumo/formatacao (first fatura))))
+
+; Listagem de compras realizadas: (c.db/compras)
