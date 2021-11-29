@@ -9,7 +9,7 @@ Projeto em Clojure simulando (de forma básica) o cartão de crédito de um clie
 * Cálculo do valor da fatura do mês
 
 ## Utilização
-* Toda funcionalidade está disponível para visualização no arquivo core.clj
+* Toda funcionalidade está disponível para visualização no arquivo **greet.clj**
 * Para verificar a listagem de compras realizadas, rode:
 >     (c.db/compras)
 * O cálculo da fatura refere-se aos gastos do primeiro ao último dia do mês atual
