@@ -11,7 +11,7 @@ Projeto em Clojure simulando (de forma básica) o cartão de crédito de um clie
 ## Utilização
 * Toda funcionalidade está disponível para visualização no arquivo **greet.clj**
 * Para verificar a listagem de compras realizadas, rode:
->     (c.db/compras)
+>     (creditcard.db/compras)
 * O cálculo da fatura refere-se aos gastos do primeiro ao último dia do mês atual
 
 ## Autora
