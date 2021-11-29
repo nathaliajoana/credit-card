@@ -15,4 +15,4 @@
   (println "Por categoria:" (get (first categoria) :valor-por-categoria "Nenhum gasto por categoria encontrado!"))
   (println "Sua fatura do mês: R$" (c.l.resumo/formatacao (first fatura))))
 
-; Listagem de compras realizadas: (c.db/compras)
+; Listagem de compras realizadas: (creditcard.db/compras)
