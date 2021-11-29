@@ -1,22 +1,18 @@
-# creditcard
+# Credit Card
+Projeto em Clojure simulando (de forma básica) o cartão de crédito de um cliente Nubank
 
-A Clojure library designed to ... well, that part is up to you.
+## Funcionalidades
+* Representação dos dados do cliente (nome, cpf, email)
+* Representação dos dados do cartão (número, cvv, validade, limite)
+* Listagem de compras realizadas (data, valor, estabelecimento, categoria)
+* Valor dos gastos agrupados por categoria
+* Cálculo do valor da fatura do mês
 
-## Usage
+## Utilização
+* Toda funcionalidade está disponível para visualização no arquivo core.clj.
+* Para verificar a listagem de compras realizadas, rode:
+>     (c.db/compras)
 
-FIXME
-
-## License
-
-Copyright © 2021 FIXME
-
-This program and the accompanying materials are made available under the
-terms of the Eclipse Public License 2.0 which is available at
-http://www.eclipse.org/legal/epl-2.0.
-
-This Source Code may also be made available under the following Secondary
-Licenses when the conditions for such availability set forth in the Eclipse
-Public License, v. 2.0 are satisfied: GNU General Public License as published by
-the Free Software Foundation, either version 2 of the License, or (at your
-option) any later version, with the GNU Classpath Exception which is available
-at https://www.gnu.org/software/classpath/license.html.
+## Author
+* **Nathália Joana**: @nathaliajoana (https://github.com/nathaliajoana)
+* **Nubank** Yes, She Codes! Alura Bootcamp - Week 1
