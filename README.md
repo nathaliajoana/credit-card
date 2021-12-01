@@ -1,4 +1,4 @@
-# Credit Card
+# Credit Card (older version)
 Projeto em Clojure simulando (de forma básica) o cartão de crédito de um cliente Nubank
 
 ## Funcionalidades
